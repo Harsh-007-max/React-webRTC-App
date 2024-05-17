@@ -7,9 +7,7 @@ export const useSocket = () => {
 };
 export const SocketProvider = (props) => {
   const socket = useMemo(
-    // () => io("https://node-socket-server-nine.vercel.app"),
-    // () => io("localhost:8000"),
-    () => io("https://fluffy-telegram-44g5ggx555g2qjjp-8000.app.github.dev"),
+    () => io("https://node-socket-server-dyev.onrender.com"),
     [],
   );
   return (
