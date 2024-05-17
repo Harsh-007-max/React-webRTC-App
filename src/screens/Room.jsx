@@ -155,7 +155,6 @@ const RoomPage = () => {
               height="300px"
               width="500px"
               playing
-              muted
             />
           </div>
         </>
